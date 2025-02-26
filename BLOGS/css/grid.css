@@ -1,0 +1,78 @@
+#grid-container{
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    " navbar navbar navbar navbar navbar navbar navbar navbar"
+    "menuA menuA menuB menuB menuB menuB menuc menuc"
+    "form form form form form form form form"
+    "video1 video1 video1 video1 video2 video2 video2 video2 "
+    "footer footer footer footer footer footer footer footer "
+    ;
+}
+
+
+
+#navbar{
+    background-color: aliceblue;
+    grid-area: navbar;
+    margin: 5px;
+}
+#menuA{
+    background-color: aqua;
+    grid-area: menuA;
+    margin: 5px;
+}
+#menuB{
+    background-color: blue;
+    grid-area: menuB;
+    margin: 5px;
+}
+#menuc{
+    background-color: blueviolet;
+    grid-area: menuc;
+    margin: 5px;
+}
+#form{
+    background-color: aquamarine;
+    grid-area: form;
+    margin: 5px;
+}
+#video1{
+    background-color: green;
+    grid-area: video1;
+    margin: 5px;
+}
+#video2{
+    background-color: orange;
+    grid-area: video2;
+    margin: 5px;
+}
+#footer{
+    background-color: palevioletred;
+    grid-area: footer;
+    margin: 5px;
+}
+
+/* media queries */
+@media screen and (max-width: 780px){
+    /* styling rules */
+
+    body{
+        background-color: red;
+    }
+    #grid-container{
+        margin: 10px;
+        display: grid;
+        grid-template-areas: 
+        " navbar navbar navbar navbar navbar navbar navbar navbar"
+        "menuA menuA menuA menuA menuc menuc menuc menuc"
+        "menuB menuB menuB menuB menuB menuB menuB menuB"
+        "form form form form form form form form"
+        "video1 video1 video1 video1 video1 video1 video1 video1 "
+        "video2 video2 video2 video2 video2 video2 video2 video2 "
+        "footer footer footer footer footer footer footer footer "
+        ;
+    }
+    
+
+}
