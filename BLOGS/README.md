@@ -137,3 +137,42 @@ Allows us to to control the flow of programs based on conditions
 They help us to made a decision
 
 1. if statement
+
+
+### Functions
+reusable blocks that can take input process it and return a desired output
+
+1. Function declaration : Whane you need a function that can be hoisted
+
+what is hoisting? a function is accessible before its declaration in code
+
+2. Function expressions: when variable values are actual functions
+3. Arrow functions: A more concise way  of writing your functions
+
+###  DATA STRUCTURE
+A way of organizing storing and managing data
+
+1. primitive data structures - data types resulting to single values
+let name = "Joseph";
+let x = 80
+
+Non primitives
+2. linear data structure: A collection of items :: ordered collection of items. Stores element sequentially
+- arrays - collection of elements stored in a index order
+when we need need fast access to the elements in the collection via index
+- Linked lists
+- stacks
+- Queues
+3. non linear data structures :: They store data in complex ways but access to that data is very fast
+- trees: DOM in web pages
+- graphs
+- Hash tables
+
+### Objects
+A collection of key and pair values normally referencing a single entity.
+
+### Reasons for using data structures
+improved performance
+to optimize our memory usage
+
+what kind of data structure is a search engine using? homework
