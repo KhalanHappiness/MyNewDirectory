@@ -176,3 +176,64 @@ improved performance
 to optimize our memory usage
 
 what kind of data structure is a search engine using? homework
+
+### DOM : Document object model
+this is a programming interface for web documents
+Rpresents the structure of your HTML as a tree of objects
+Any element within a html docs is called a node
+
+            html
+
+     head       body
+            header main footer
+                   article
+
+
+DOM allows js to manipulate, modify and update the content structure and styling of a web page
+<div>
+<p>This is a paragraph</p> 
+</div>
+
+
+### KEY CONCEPTS IN DOM
+1. Understand the DOM tree structure
+nodes - anything that appears on the document object model
+Document node : !Doctype - represents the whole tree as a HTML document
+Element nodes : HMTL elements
+Text Nodes: actual text inside an element/ content
+Attribute nodes: represents attributes used in the elements id, class , srrc alt
+comment node: comments
+2. Accessing Elemets in DOM Javascript
+- document.getElementById("id of an elememt") 
+- document.getElementByClassName("class name of the element") Selects all elements with the class name
+- document.getElementByTagMame("P") selects all the tags the match/ that do not have a class or id
+- document.querySelector("Class name of the element/tag name") selects the first element in the collection
+- document .querySelectorAll("class name/ tag name") # selects all elements matching the Query
+ 
+ 3. Creating and removing Elements::Create/remove HTML elements dynamically.
+ 4. Modifying Elements::change text,attributes,styles dynamically.
+ 5. Event Handling:: Respond to user eventsi.e. click,submit,mouse over,hover,scroll, page load 
+
+index to html has to be your landing page
+
+### Deploying on GH 
+
+
+### Author name
+happiness
+
+### Running instructions
+1. link to your page
+
+instrucutions to run your project
+
+## concept
+html css javascript
+
+aob
+built this during phase one of my learning at moringa school 
+media Query : responsiveness set at width 780 px
+
+
+
+
